@@ -1,0 +1,64 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Bebas Neue", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px white;
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(42, 122, 228);
+}
+
+.chamada {
+    background: rgb(9, 4, 54);
+    padding-bottom: 58px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+
+p {
+    font-size: 18px;
+}
+
+img {
+    height: 200px;
+}
+
+.complemento {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.complementos {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.complemento img {
+    opacity: 0.5;
+}
+
+.complemento img:hover{
+    opacity: 1.0;
+    border: 1px solid white;
+}
+
+.complementos h2 {
+    color: rgb(42, 122, 228);
+    font-size: 28px;
+}
